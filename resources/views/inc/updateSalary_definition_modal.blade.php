@@ -8,7 +8,7 @@
         <div class="modal-dialog  modal-dialog-top modal-fullscreen-xl-down">
           <div class="modal-content">
             <div class="modal-header btn btn-success">
-              <h5 class="modal-title" id="modalLabel" style="color:white">Add Salary Definition</h5>
+              <h5 class="modal-title" id="modalLabel" style="color:white">Update Salary Definition</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color:white"></button>
             </div>
     
