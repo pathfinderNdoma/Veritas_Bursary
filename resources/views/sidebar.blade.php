@@ -27,7 +27,7 @@
       <a href="{{url('staffRecod')}}">Staff Record</a>
   </li>
   <li>
-    <a href="salaryDefinition">Salary Definition</a>
+    <a href="{{url('salaryDefinition')}}">Salary Definition</a>
 </li>
 <li>
   <a href="salarySchedule">Salary Schedule</a>

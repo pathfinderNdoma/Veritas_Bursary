@@ -30,3 +30,6 @@ route::get('paymentLog', [Controller::class, 'paymentLog']);
 route::get('paymentReport', [Controller::class, 'paymentReport']);
 
 Route::get('/log', [App\Http\Controllers\paymentlogController::class, 'feespayment'])->name('log');
+Route::get('/salaryDefinition', [App\Http\Controllers\salaryDefinitionController::class, 'index'])->name('salaryDef');
+Route::post('add', [App\Http\Controllers\salaryDefinitionController::class, 'add'])->name('add');
+Route::get('update', [App\Http\Controllers\salaryDefinitionController::class, 'update'])->name('update');
